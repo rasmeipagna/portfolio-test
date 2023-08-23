@@ -9,16 +9,15 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="logo"/>
         <div className="desktopMenu">
           <Link className="desktopMenuListItem">Home</Link>
-          <Link className="desktopMenuListItem">Clients</Link>
           <Link className="desktopMenuListItem">About</Link>
           <Link className="desktopMenuListItem">Portfolio</Link>
-
-            <button className="desktopMenu">
+        </div>
+            <button className="desktopMenuBtn">
               <img src="" alt="" className="destokMenuImg" />Contact me
             </button>
 
 
-        </div>
+        
         
     </nav>
   )
