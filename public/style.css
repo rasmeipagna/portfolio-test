@@ -7,8 +7,8 @@
 }
 
 body{
-    background:rgb(30,30,30);
-    color:white;
+    background:#dedede;
+    color:#f5afba;
     overflow:hidden;
     overflow-y: scroll;
 }
