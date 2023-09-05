@@ -25,6 +25,7 @@
     margin: 1rem;
 }
 .desktopMenuListItem{
+    transition: all 0.5s ease-out;
     margin: 1rem;
     color:white;
     cursor:pointer;
@@ -50,9 +51,10 @@
     background: white;
     color:black; 
     font-family: 'Courier New', Courier, monospace;
+    transition: all 0.5s ease-out;
 }
 .desktopMenuBtn img{
-    margin:0 1rem;
+    margin:0 0.25rem;
     width:1rem;
 }
 .desktopMenuBtn:hover{
